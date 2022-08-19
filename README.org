@@ -1,0 +1,91 @@
+#+title: Publishing org-mode projects on Gitlab Pages
+#+author: Sachin Patil <psachin@redhat.com>
+
+Example [[http://orgmode.org][org-mode]] website using [[https://about.gitlab.com/product/pages/][GitLab Pages]].
+
+Learn more about GitLab Pages at [[https://about.gitlab.com/product/pages/]] and the
+official documentation [[https://docs.gitlab.com/ce/user/project/pages/]].
+
+* How to use this repository to publish your own blogs?
+  - Clone the =blog_template= branch,
+    #+BEGIN_SRC shell
+      git clone https://gitlab.com/psachin/psachin.gitlab.io -b blog_template --single-branch myblog
+    #+END_SRC
+
+  - Execute =make= to export org pages to HTML. The HTML pages will be generated
+    in the =public/= directory,
+    #+BEGIN_SRC shell -n
+      cd myblog
+      make
+    #+END_SRC
+
+  - Use [[https://github.com/skeeto/emacs-web-server][emacs-web-server]]. Special thanks to [[https://github.com/zimoun][zimon]]!
+    #+BEGIN_SRC shell
+      emacs -l serve.el
+
+      # Open http://localhost:8000/ in the Web browser.
+    #+END_SRC
+
+  - or Use Python's =http.server= module to locally render the pages,
+    #+BEGIN_SRC shell -n
+      # Python 3.7
+      python -m http.server --directory=public/
+
+      # Python 3.6
+      cd public
+      python -m http.server
+
+      # Open http://localhost:8000/ in the Web browser.
+    #+END_SRC
+
+  - A sample blog post exists in =posts/template.org= for your reference.
+
+* Screenshots
+
+  #+CAPTION: Home page
+  #+ATTR_HTML: :width 50%
+  #+ATTR_HTML: :class center no-border
+  [[./images/posts/template/home.png]]
+
+  #+CAPTION: About page
+  #+ATTR_HTML: :width 50%
+  #+ATTR_HTML: :class center no-border
+  [[./images/posts/template/about.png]]
+
+* Org-mode
+Org-mode is [[http://www.gnu.org/philosophy/free-sw.en.html][Free Software]] and part of [[https://www.gnu.org/s/emacs/][GNU Emacs]]. It's a simple
+document format ("Org") with a powerful and intuitive interface
+(org-mode) that can [[http://orgmode.org/org.html#Exporting][export]] and [[http://orgmode.org/org.html#Publishing][publish]] to html, LaTeX, ascii, odt
+amongst others, and [[http://orgmode.org/org.html#Working-with-source-code][evaluate source code]].
+
+The org-mode manual can be accessed here: [[http://orgmode.org/org.html]].
+
+The main place for Org development is the mailing list, available on
+[[http://dir.gmane.org/gmane.emacs.orgmode][Gmane]].
+
+* Gitlab CI
+This project's static Pages are built by [[https://about.gitlab.com/gitlab-ci/][GitLab CI]], following the
+steps defined in [[https://gitlab.com/pages/nikola/blob/master/.gitlab-ci.yml][.gitlab-ci.yml]]:
+
+#+INCLUDE: .gitlab-ci.yml src conf
+
+These build instructions are using a docker image, namely
+~iquiw/alpine-emacs~. It makes it possible to publish the project on a
+public runner on Gitlab.com.
+
+You could probably get a better experience by using a local runner on
+a server you control. If so, you can drop the ~image~ keyword.
+
+* Building locally
+Org-mode is part of GNU Emacs.  See how to obtain GNU Emacs on your OS
+here: [[https://www.gnu.org/software/emacs/download.html]].
+
+To get the latest version of Org see [[http://orgmode.org]].
+
+* GitLab User or Group Pages
+To use this project as your user/group website, you will need one
+additional step: just rename your project to ~namespace.gitlab.io~,
+where ~namespace~ is your ~username~ or ~groupname~. This can be done
+by navigating to your project's Settings.
+
+Read more about [[https://docs.gitlab.com/ce/user/project/pages/#user-or-group-pages][user/group Pages]] and [[https://docs.gitlab.com/ce/user/project/pages/#project-pages][project Pages]].

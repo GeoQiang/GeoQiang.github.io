@@ -1,0 +1,9 @@
+#+TITLE: Test
+#+DATE: <2022-08-19 五 16:50>
+#+AUTHOR: Geo Zhao
+#+setupfile: ../org-templates/post.org
+
+* todo let's test
+
+123123
+<2022-08-19 五 16:50>

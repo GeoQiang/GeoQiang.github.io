@@ -1,0 +1,6 @@
+#+TITLE: Blog Index
+
+- *[[file:test.org][Test]]*
+  #+html: <p class='pubdate'>by Geo Zhao on 8月 19, 2022.</p>
+- *[[file:template.org][Sample Post]]*
+  #+html: <p class='pubdate'>by GeoZhao on 2月 05, 2020.</p>

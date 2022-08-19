@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>Blog Index</title>
+  <atom:link href="http://example.com/index.xml" rel="self" type="application/rss+xml" />
+  <link>http://example.com/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Fri, 19 Aug 2022 15:25:26 +0800</pubDate>
+  <lastBuildDate>Fri, 19 Aug 2022 15:25:26 +0800</lastBuildDate>
+  <generator>Emacs 27.1 Org-mode 9.4.6</generator>
+  <webMaster>geo@MiWiFi-RA67-srv (GeoZhao)</webMaster>
+  <image>
+    <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
+    <title>Blog Index</title>
+    <link>http://example.com/</link>
+  </image>
+
+  <ul class="org-ul">
+    <li><p>
+      <b><a href="orgfile.html">orgfile</a></b>
+    </p>
+    <p class='pubdate'>by GeoZhao on 8月 19, 2022.</p></li>
+    <li><p>
+      <b><a href="写作的光荣.html">写作的光荣</a></b>
+    </p>
+    <p class='pubdate'>by GeoZhao on 8月 14, 2022.</p></li>
+    <li><p>
+      <b><a href="template.html">Sample Post</a></b>
+    </p>
+    <p class='pubdate'>by Geo Zhao on 2月 05, 2020.</p></li>
+  </ul>
+</channel>
+</rss>

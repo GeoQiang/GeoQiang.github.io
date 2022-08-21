@@ -5,5 +5,3 @@
 
 This blog is published entirely using [[https://www.gnu.org/s/emacs/][GNU Emacs.]]
 [[https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html][Org-publish]] can publish Org-mode files to HTML.If you want to publish your own blogs,you can follow with this [[https://opensource.com/article/20/3/blog-emacs][tutorial]].
-
-

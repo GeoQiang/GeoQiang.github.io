@@ -46,11 +46,11 @@
     <span class="gray">Geo</span>
     <span class="black">Zhao</span>
   </h1>
-  <p>Emacser</p>
+  <p>Emacser | Literature Buff</p>
 </div>
 
 <div class='nav'>
-
+<img src="/images/rabbit.jpg" alt="Guess what?">
 <ul>
 <li><a href='/'>Blog</a>.</li>
 <li><a href='/about/'>About</a></li>
@@ -66,7 +66,7 @@ I am thinking
 </main>
 <footer id="postamble" class="status">
 <div class='footer'>
-  Copyright © 2022 <a href='zq@yasuoo.org'>Geo Zhao.</a><br>
+  Copyright © 2022 <a href='mailto:zq@yasuoo.org'>Geo Zhao.</a><br>
   Last updated on 8月 19, 2022. Generated using <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4.6).
 </div>
 </footer>

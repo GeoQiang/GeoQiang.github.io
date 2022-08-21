@@ -2,10 +2,10 @@
 ;; Author: Sachin Patil <iclcoolster@gmail.com, psachin@redhat.com>
 
 ;;; Commentary:
-;; This Elisp will publish the org-mode files in 'posts/' to HTML format in 'public/'
+;; This Elisp will publish the org-mode files in 'posts/' to HTML format in 'docs/'
 ;; Below commands can be used to host the published HTML files locally:
 ;; $ make
-;; $ python -m http.server --directory=public/
+;; $ python -m http.server --directory=docs/
 ;;
 ;; Refer the Makefile for more info.
 
@@ -108,7 +108,7 @@ publishing directory. Returns output file name."
          :base-extension "org"
          :recursive t
          :publishing-function org-html-publish-to-html
-         :publishing-directory "./public"
+         :publishing-directory "./docs"
          :exclude ,(regexp-opt '("README.org" "draft"))
          :auto-sitemap t
          :sitemap-filename "index.org"
@@ -130,7 +130,7 @@ publishing directory. Returns output file name."
          :index-filename "index.org"
          :recursive nil
          :publishing-function org-html-publish-to-html
-         :publishing-directory "./public/about"
+         :publishing-directory "./docs/about"
          :html-link-home "/"
          :html-link-up "/"
          :html-head-include-scripts t
@@ -141,19 +141,19 @@ publishing directory. Returns output file name."
         ("css"
          :base-directory "./css"
          :base-extension "css"
-         :publishing-directory "./public/css"
+         :publishing-directory "./docs/css"
          :publishing-function org-publish-attachment
          :recursive t)
         ("images"
          :base-directory "./images"
          :base-extension ,site-attachments
-         :publishing-directory "./public/images"
+         :publishing-directory "./docs/images"
          :publishing-function org-publish-attachment
          :recursive t)
         ("assets"
          :base-directory "./assets"
          :base-extension ,site-attachments
-         :publishing-directory "./public/assets"
+         :publishing-directory "./docs/assets"
          :publishing-function org-publish-attachment
          :recursive t)
         

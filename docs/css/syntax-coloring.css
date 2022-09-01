@@ -160,7 +160,7 @@ dt { font-weight: bold; }
   background: #ffffcc;
 }
 #org-div-home-and-up
- { text-align: right; font-size: 70%; white-space: nowrap; }
+ { text-align: right; font-size: 70%; white-space: nowrap; background: #515151;}
 textarea { overflow-x: auto; }
 .linenr { font-size: smaller }
 .code-highlighted { background-color: #ffff00; }

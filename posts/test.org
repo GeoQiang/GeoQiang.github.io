@@ -3,6 +3,5 @@
 #+AUTHOR: Geo Zhao
 #+setupfile: ../org-templates/post.org
 
-* todo let's test
+* TODO todo let's test
 
-<2022-08-19 五 16:50>

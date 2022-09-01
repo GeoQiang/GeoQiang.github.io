@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 8月 23, 2022 -->
+<!-- 9月 02, 2022 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Test</title>
@@ -44,7 +44,7 @@
 </div><header id="top" class="status">
 <div class='intro'>
   <img src='/images/about/profile.png' alt='Geo Zhao' class='no-border'/>
-  <h1>
+  <h1 class='name'>
     <span class="gray">Geo</span>
     <span class="black">Zhao</span>
   </h1>
@@ -52,7 +52,6 @@
 </div>
 
 <div class='nav'>
-<img src="/images/rabbit.jpg" alt="Guess what?">
 <ul>
 <li><a href='/'>Blog</a>.</li>
 <li><a href='/about/'>About</a></li>
@@ -65,19 +64,14 @@
 <span class="subtitle">Published on 8月 19, 2022 by Geo Zhao.</span>
 </h1>
 
-<section id="outline-container-org017f78c" class="outline-2">
-<h2 id="org017f78c">todo let&rsquo;s test</h2>
-<div class="outline-text-2" id="text-org017f78c">
-<p>
-<span class="timestamp-wrapper"><span class="timestamp">&lt;2022-08-19 五 16:50&gt;</span></span>
-</p>
-</div>
+<section id="outline-container-org8453ab5" class="outline-2">
+<h2 id="org8453ab5"><span class="todo TODO">TODO</span> todo let&rsquo;s test</h2>
 </section>
 </main>
 <footer id="postamble" class="status">
 <div class='footer'>
   Copyright © 2022 <a href='mailto:zq@yasuoo.org'>Geo Zhao.</a><br>
-  Last updated on 8月 23, 2022. Generated using <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4.6).
+  Last updated on 9月 02, 2022. Generated using <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4.6).
 </div>
 </footer>
 </body>

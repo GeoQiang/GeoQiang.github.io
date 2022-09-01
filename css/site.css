@@ -5,13 +5,19 @@ body {
   background: #fff;
   color: #666;
   margin: 0;
-  border-top: 3px solid #1692cc;
+  border-top: 3px solid #515151;
 }
 @media (max-width: 799px) {
   body {
     padding: 15px;
     font-size: .95em;
   }
+}
+body header {
+background: #515151;
+}
+body h1.name {
+background: #515151;
 }
 body h1,
 body h2,
@@ -21,6 +27,7 @@ body h4 {
   margin: 0;
   padding: 0;
   color: #444;
+  background: #fff;
 }
 body h1 b,
 body h2 b,
@@ -216,7 +223,7 @@ body .nav ul li a {
   padding-right: 6px;
   border-radius: 0;
   font-weight: normal;
-  color: #6a6a6a;
+  color: #fff;
 }
 body #disqus_thread {
   margin-top: 40px;

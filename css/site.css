@@ -71,7 +71,7 @@ body p {
 }
 body a {
   text-decoration: none;
-  color: #1692cc;
+  color: #848383;
 }
 body a:hover {
   color: #91351c;
@@ -172,7 +172,7 @@ body #postamble {
   border-top: 1px solid #e2e2e2;
 }
 body #postamble a {
-  color: #e9a390;
+   color: #ffca1e;
 }
 @media (min-width: 800px) {
   body #preamble {
@@ -223,7 +223,7 @@ body .nav ul li a {
   padding-right: 6px;
   border-radius: 0;
   font-weight: normal;
-  color: #fff;
+  color: #ffca1e;
 }
 body #disqus_thread {
   margin-top: 40px;

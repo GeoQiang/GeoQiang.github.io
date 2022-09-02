@@ -4,7 +4,7 @@
 <!-- 9月 02, 2022 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>About</title>
+<title>Wiki</title>
 <meta name="author" content="GeoZhao" />
 <meta name="generator" content="Org Mode" />
 <link rel='icon' type='image/x-icon' href='/images/favicon.ico'/>
@@ -36,7 +36,7 @@
 </head>
 <body>
 <div id="org-div-home-and-up">
- <a accesskey="h" href="/"> UP </a>
+ <a accesskey="h" href="/wiki"> UP </a>
  |
  <a accesskey="H" href="/"> HOME </a>
 </div><header id="top" class="status">
@@ -59,10 +59,23 @@
 </header>
 <main id="content" class="content">
 <header>
-<h1 class="title">About</h1>
-</header><p>
-I am thinking
+<h1 class="title">Wiki</h1>
+</header><ul class="org-ul">
+<li>文学
+<ul class="org-ul">
+<li><p>
+<b><a href="文学/写作的光荣.html">写作的光荣</a></b>
 </p>
+<p class='pubdate'>by GeoZhao on 9月 02, 2022.</p></li>
+</ul></li>
+<li>Org-mode
+<ul class="org-ul">
+<li><p>
+<b><a href="Org-mode/inbox.html">INBOX</a></b>
+</p>
+<p class='pubdate'>by GeoZhao on 8月 29, 2022.</p></li>
+</ul></li>
+</ul>
 </main>
 <footer id="postamble" class="status">
 <div class='footer'>

@@ -24,6 +24,7 @@
 p.verse { margin-left: 3%; }
 pre {
   border: 1px solid #ccc;
+  border-radius: 10px;
   box-shadow: 3px 3px 3px #eee;
   padding: 8pt;
   font-family: monospace;

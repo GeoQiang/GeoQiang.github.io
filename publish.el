@@ -48,7 +48,7 @@
   "<link rel='icon' type='image/x-icon' href='/images/favicon.ico'/>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <link rel='stylesheet' href='https://code.cdn.mozilla.net/fonts/fira.css'>
-<link rel='stylesheet' href='/css/site.css?v=2' type='text/css'/>
+<link rel='stylesheet' href='/css/site.css' type='text/css'/>
 <link rel='stylesheet' href='/css/custom.css' type='text/css'/>
 <link rel='stylesheet' href='/css/syntax-coloring.css' type='text/css'/>")
 
@@ -61,13 +61,13 @@
                                    (car (plist-get plist :author)))))
   ;; Preamble
   (with-temp-buffer
-    (insert-file-contents "../html-templates/preamble.html") (buffer-string)))
+    (insert-file-contents "~/GeoQiang.github.io/html-templates/preamble.html") (buffer-string)))
 
 (defun me/website-html-postamble (plist)
   "PLIST."
   (concat (format
            (with-temp-buffer
-             (insert-file-contents "../html-templates/postamble.html") (buffer-string))
+             (insert-file-contents "~/GeoQiang.github.io/html-templates/postamble.html") (buffer-string))
            (format-time-string this-date-format (plist-get plist :time)) (plist-get plist :creator))))
 
 (defvar site-attachments
@@ -123,6 +123,26 @@ publishing directory. Returns output file name."
          :html-head ,me/website-html-head
          :html-preamble me/website-html-preamble
          :html-postamble me/website-html-postamble)
+        ("wiki"
+         :base-directory "wiki"
+         :base-extension "org"
+         :exclude ,(regexp-opt '("README.org" "draft"))
+         :auto-sitemap t
+         :sitemap-filename "index.org"
+         :sitemap-title "Wiki"
+         :sitemap-format-entry me/org-sitemap-format-entry
+         :sitemap-sort-files anti-chronologically
+         :index-filename "index.org"
+         :recursive t
+         :publishing-function org-html-publish-to-html
+         :publishing-directory "./docs/wiki"
+         :html-link-home "/"
+         :html-link-up "/wiki"
+         :html-head-include-scripts t
+         :html-head-include-default-style nil
+         :html-head ,me/website-html-head
+         :html-preamble me/website-html-preamble
+         :html-postamble me/website-html-postamble)
         ("about"
          :base-directory "about"
          :base-extension "org"
@@ -157,7 +177,7 @@ publishing directory. Returns output file name."
          :publishing-function org-publish-attachment
          :recursive t)
         
-        ("all" :components ("posts" "about" "css" "images" "assets" ))))
+        ("all" :components ("posts" "about" "css" "wiki" "images" "assets" ))))
 
 (provide 'publish)
 ;;; publish.el ends here

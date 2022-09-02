@@ -172,7 +172,7 @@ body #postamble {
   border-top: 1px solid #e2e2e2;
 }
 body #postamble a {
-   color: #ffca1e;
+   color: #fca311;
 }
 @media (min-width: 800px) {
   body #preamble {
@@ -223,7 +223,7 @@ body .nav ul li a {
   padding-right: 6px;
   border-radius: 0;
   font-weight: normal;
-  color: #ffca1e;
+  color: #aaa;
 }
 body #disqus_thread {
   margin-top: 40px;

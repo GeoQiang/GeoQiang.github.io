@@ -3,6 +3,3 @@
 - 文学
   - *[[file:文学/写作的光荣.org][写作的光荣]]*
     #+html: <p class='pubdate'>by GeoZhao on 9月 02, 2022.</p>
-- Org-mode
-  - *[[file:Org-mode/inbox.org][INBOX]]*
-    #+html: <p class='pubdate'>by GeoZhao on 8月 29, 2022.</p>

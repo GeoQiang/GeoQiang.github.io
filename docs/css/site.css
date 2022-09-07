@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Fira Sans', Helvetica, sans-serif;
   line-height: 1.5;
@@ -5,7 +6,7 @@ body {
   background: #fff;
   color: #666;
   margin: 0;
-  border-top: 3px solid #515151;
+  border-top: 0px solid #515151;
 }
 @media (max-width: 799px) {
   body {
@@ -222,7 +223,7 @@ body .nav ul li a {
   display: inline-block;
   padding-right: 6px;
   border-radius: 0;
-  font-weight: normal;
+  font-weight: bold;
   color: #aaa;
 }
 body #disqus_thread {

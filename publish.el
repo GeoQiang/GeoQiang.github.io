@@ -116,8 +116,7 @@ publishing directory. Returns output file name."
          :sitemap-format-entry me/org-sitemap-format-entry
          :sitemap-style list
          :sitemap-sort-files anti-chronologically
-         :html-link-home "/"
-         :html-link-up "/"
+         
          :html-head-include-scripts t
          :html-head-include-default-style nil
          :html-head ,me/website-html-head
@@ -136,8 +135,7 @@ publishing directory. Returns output file name."
          :recursive t
          :publishing-function org-html-publish-to-html
          :publishing-directory "./docs/wiki"
-         :html-link-home "/"
-         :html-link-up "/wiki"
+         
          :html-head-include-scripts t
          :html-head-include-default-style nil
          :html-head ,me/website-html-head
@@ -151,8 +149,7 @@ publishing directory. Returns output file name."
          :recursive nil
          :publishing-function org-html-publish-to-html
          :publishing-directory "./docs/about"
-         :html-link-home "/"
-         :html-link-up "/"
+         
          :html-head-include-scripts t
          :html-head-include-default-style nil
          :html-head ,me/website-html-head
@@ -177,7 +174,7 @@ publishing directory. Returns output file name."
          :publishing-function org-publish-attachment
          :recursive t)
         
-        ("all" :components ("posts" "about" "css" "wiki" "images" "assets" ))))
+        ("all" :components ("posts" "about" "css" "wiki" "images" "assets"))))
 
 (provide 'publish)
 ;;; publish.el ends here

@@ -4,11 +4,12 @@
  * Source: org-plus-contrib/ox-html.el
  ******************************/
 .title  { text-align: center;
-           margin-bottom: .2em; }
+           margin-bottom: 0em; }
 .subtitle { text-align: center;
             font-size: medium;
             color: #aaa;
-            margin-top:0; }
+            margin-top:0; 
+            background: #fff }
 .todo   { font-family: monospace; color: red; }
 .done   { font-family: monospace; color: green; }
 .priority { font-family: monospace; color: orange; }

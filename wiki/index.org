@@ -1,5 +1,8 @@
 #+TITLE: Wiki
 
+- 诗词
+  - *[[file:诗词/题龙阳县青草湖.org][题龙阳县青草湖]]*
+    #+html: <p class='pubdate'>by Geo Zhao on 9月 08, 2022.</p>
 - 文学
   - *[[file:文学/写作的光荣.org][写作的光荣]]*
-    #+html: <p class='pubdate'>by GeoZhao on 9月 02, 2022.</p>
+    #+html: <p class='pubdate'>by Geo Zhao on 9月 08, 2022.</p>

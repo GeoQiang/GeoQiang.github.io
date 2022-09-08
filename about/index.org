@@ -1,4 +1,4 @@
 #+title: About
 #+filetags: about
 
-I am thinking
+Expect self and respond to self

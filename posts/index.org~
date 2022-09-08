@@ -1,8 +1,6 @@
 #+TITLE: Blog Index
 
-- *[[file:orgfile.org][orgfile]]*
-  #+html: <p class='pubdate'>by GeoZhao on 8月 19, 2022.</p>
-- *[[file:写作的光荣.org][写作的光荣]]*
-  #+html: <p class='pubdate'>by Geo Zhao on 8月 14, 2022.</p>
+- *[[file:test.org][Test]]*
+  #+html: <p class='pubdate'>by Geo Zhao on 8月 19, 2022.</p>
 - *[[file:template.org][Sample Post]]*
-  #+html: <p class='pubdate'>by Geo Zhao on 2月 05, 2020.</p>
+  #+html: <p class='pubdate'>by GeoZhao on 2月 05, 2020.</p>

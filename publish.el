@@ -21,6 +21,7 @@
 (package-install 'simple-httpd)
 
 (require 'org)
+(require 'ox-rss)
 (require 'ox-publish)
 (require 'ox-reveal)
 
@@ -116,7 +117,6 @@ publishing directory. Returns output file name."
          :sitemap-format-entry me/org-sitemap-format-entry
          :sitemap-style list
          :sitemap-sort-files anti-chronologically
-         
          :html-head-include-scripts t
          :html-head-include-default-style nil
          :html-head ,me/website-html-head
@@ -135,7 +135,6 @@ publishing directory. Returns output file name."
          :recursive t
          :publishing-function org-html-publish-to-html
          :publishing-directory "./docs/wiki"
-         
          :html-head-include-scripts t
          :html-head-include-default-style nil
          :html-head ,me/website-html-head
@@ -149,7 +148,6 @@ publishing directory. Returns output file name."
          :recursive nil
          :publishing-function org-html-publish-to-html
          :publishing-directory "./docs/about"
-         
          :html-head-include-scripts t
          :html-head-include-default-style nil
          :html-head ,me/website-html-head
@@ -173,8 +171,20 @@ publishing directory. Returns output file name."
          :publishing-directory "./docs/assets"
          :publishing-function org-publish-attachment
          :recursive t)
-        
-        ("all" :components ("posts" "about" "css" "wiki" "images" "assets"))))
+        ("rss"
+         :base-directory "posts"
+         :base-extension "org"
+         :html-link-home "http://yasuoo.org/"
+         :rss-link-home "http://yasuoo.org/"
+         :html-link-use-abs-url t
+         :rss-extension "xml"
+         :publishing-directory "./docs"
+         :publishing-function (org-rss-publish-to-rss)
+         :section-number nil
+         :exclude ".*"
+         :include ("index.org")
+         :table-of-contents nil)
+        ("all" :components ("posts" "about" "css" "wiki" "images" "assets" "rss"))))
 
 (provide 'publish)
 ;;; publish.el ends here

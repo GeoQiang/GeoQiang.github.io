@@ -203,29 +203,88 @@ body .intro img {
   border-radius: 100%;
   width: 100px;
 }
-body .nav {
-  text-align: center;
-  margin-top: 30px;
-  border-bottom: 1px solid #e2e2e2;
-  font-size: 12px;
-  text-transform: uppercase;
+.nav{
+    width: 350px;
+    height: 70px;
+    margin:0 auto; 
 }
-body .nav ul {
-  list-style: none;
-  padding: 0;
+.nav ul{
+    display: flex;
 }
-body .nav ul li {
-  color: #999;
-  display: inline-block;
-  margin: 0;
+.nav ul li{
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
 }
-body .nav ul li a {
-  display: inline-block;
-  padding-right: 6px;
-  border-radius: 0;
-  font-weight: bold;
-  color: #aaa;
+body .nav ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: gray;
+    text-align: center;
 }
+.nav ul li a .icon{
+    position: relative;
+    line-height: 75px;
+    transition: 0.35s;
+    font-size: 30px;
+}
+
+.nav ul li.active a .icon{
+    font-size: 27px;
+    transform: translateY(-6px);
+    margin-bottom: 0px;
+}
+
+.nav ul li a .text{
+    position: absolute;
+    font-size: 14px;
+    color: gray;
+    bottom: 10px;
+    font-weight: bold;
+    transition: 0.25s;
+    transform: scale(0);
+}
+
+.nav ul li:hover a .text{
+transform: scale(1);
+}
+
+.indicator{
+    position: absolute;
+    left: 0 auto;
+    width: 70px;
+    height: 70px;
+    /* background: #f00; */
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.nav ul li:nth-child(1).active ~ .indicator{
+    background: #ffffff;
+    box-shadow: 0 15px 25px #ffffff;
+    transform: translateX(calc(70px * 0));
+}
+.nav ul li:nth-child(2).active ~ .indicator{
+    background: #e6eeec;
+    box-shadow: 0 15px 25px #e6eeec;
+    transform: translateX(calc(70px * 1));
+}
+.nav ul li:nth-child(3).active ~ .indicator{
+  background: #ffeb54;
+  box-shadow: 0 15px 25px #ffeb54;
+  transform: translateX(calc(70px * 2));
+}
+.nav ul li:nth-child(4).active ~ .indicator{
+  background: #ffca1e;
+  box-shadow: 0 15px 25px #ffca1e;
+  transform: translateX(calc(70px * 3));
+}
+
 body #disqus_thread {
   margin-top: 40px;
 }

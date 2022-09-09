@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 9月 08, 2022 -->
+<!-- 9月 10, 2022 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Blog Index</title>
@@ -47,10 +47,27 @@
 
 <div class='nav'>
 <ul>
-<li><a href='/'>Blog</a>.</li>
-<li><a href='/wiki/'>Wiki</a>.</li>
-<li><a href='/index.xml'>Rss</a>.</li>
-<li><a href='/about/'>About</a></li>
+<li class="list"><a href='/'>
+<span class="icon"><ion-icon name="home"></ion-icon></span>
+<span class="text">Blog</span>
+</a></li>
+
+<li class="list"><a href='/wiki/'>
+<span class="icon"><ion-icon name="library"></ion-icon></span>
+<span class="text">Wiki</span>
+</a></li>
+
+<li class="list"><a href='/index.xml'>
+<span class="icon"><ion-icon name="logo-rss"></ion-icon></span>
+<span class="text">Rss</span>
+</a></li>
+
+<li class="list"><a href='/about/'>
+<span class="icon"><ion-icon name="person"></ion-icon></span>
+<span class="text">About</span>
+</a></li>
+
+<div class="indicator"></div>
 </ul>
 </div>
 </header>
@@ -71,8 +88,23 @@
 <footer id="postamble" class="status">
 <div class='footer'>
   Copyright © 2022 <a href='mailto:zq@yasuoo.org'>Geo Zhao.</a><br>
-  Last updated on 9月 08, 2022. Generated using <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4.6).
+  Last updated on 9月 10, 2022. Generated using <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4.6).
 </div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+      let list = document.querySelectorAll(".list");
+      function setActiveClass() {
+        this.classList.add("active");
+      }
+      function removeActiveClass() {
+        this.classList.remove("active");
+      }
+      list.forEach((item) => {
+        item.addEventListener("mouseover", setActiveClass);
+        item.addEventListener("mouseout", removeActiveClass);
+      });
+    </script>
 </footer>
 </body>
 </html>

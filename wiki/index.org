@@ -1,6 +1,10 @@
 #+TITLE: Wiki
 
 - 诗词
+  - *[[file:诗词/土地颂歌.org][土地颂歌]]*
+    #+html: <p class='pubdate'>by Geo Zhao on 9月 14, 2022.</p>
+  - *[[file:诗词/月亮睡着之后.org][月亮睡着之后]]*
+    #+html: <p class='pubdate'>by Geo Zhao on 9月 14, 2022.</p>
   - *[[file:诗词/题龙阳县青草湖.org][题龙阳县青草湖]]*
     #+html: <p class='pubdate'>by Geo Zhao on 9月 08, 2022.</p>
 - 文学

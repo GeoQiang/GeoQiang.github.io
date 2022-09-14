@@ -14,6 +14,7 @@
 (package-initialize)
 (add-to-list 'package-archives '("melpa-cn" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/") t)
 (add-to-list 'package-archives '("gnu-cn" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/") t)
+(add-to-list 'package-archives '("org-cn" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/") t)
 (package-refresh-contents)
 (package-install 'htmlize)
 (package-install 'org-plus-contrib)

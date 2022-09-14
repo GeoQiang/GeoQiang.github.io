@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 9月 10, 2022 -->
+<!-- 9月 14, 2022 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Test</title>
@@ -79,14 +79,14 @@
 <span class="subtitle">Published on 8月 19, 2022 by Geo Zhao.</span>
 </h1>
 
-<section id="outline-container-orgd1bd9f5" class="outline-2">
-<h2 id="orgd1bd9f5"><span class="todo TODO">TODO</span> todo let&rsquo;s test</h2>
+<section id="outline-container-orgb40ffd8" class="outline-2">
+<h2 id="orgb40ffd8"><span class="todo TODO">TODO</span> todo let&rsquo;s test</h2>
 </section>
 </main>
 <footer id="postamble" class="status">
 <div class='footer'>
   Copyright © 2022 <a href='mailto:zq@yasuoo.org'>Geo Zhao.</a><br>
-  Last updated on 9月 10, 2022. Generated using <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4.6).
+  Last updated on 9月 14, 2022. Generated using <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4.6).
 </div>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

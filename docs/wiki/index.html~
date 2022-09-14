@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 9月 10, 2022 -->
+<!-- 9月 14, 2022 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Wiki</title>
@@ -78,6 +78,14 @@
 <li>诗词
 <ul class="org-ul">
 <li><p>
+<b><a href="诗词/土地颂歌.html">土地颂歌</a></b>
+</p>
+<p class='pubdate'>by Geo Zhao on 9月 14, 2022.</p></li>
+<li><p>
+<b><a href="诗词/月亮睡着之后.html">月亮睡着之后</a></b>
+</p>
+<p class='pubdate'>by Geo Zhao on 9月 14, 2022.</p></li>
+<li><p>
 <b><a href="诗词/题龙阳县青草湖.html">题龙阳县青草湖</a></b>
 </p>
 <p class='pubdate'>by Geo Zhao on 9月 08, 2022.</p></li>
@@ -94,7 +102,7 @@
 <footer id="postamble" class="status">
 <div class='footer'>
   Copyright © 2022 <a href='mailto:zq@yasuoo.org'>Geo Zhao.</a><br>
-  Last updated on 9月 10, 2022. Generated using <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4.6).
+  Last updated on 9月 14, 2022. Generated using <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4.6).
 </div>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

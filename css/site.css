@@ -265,18 +265,18 @@ transform: scale(1);
 }
 
 .nav ul li:nth-child(1).active ~ .indicator{
-    background: #ffffff;
-    box-shadow: 0 15px 25px #ffffff;
+  background: #ffca1e;
+  box-shadow: 0 15px 25px #ffca1e;
     transform: translateX(calc(70px * 0));
 }
 .nav ul li:nth-child(2).active ~ .indicator{
-    background: #e6eeec;
-    box-shadow: 0 15px 25px #e6eeec;
+  background: #ffca1e;
+  box-shadow: 0 15px 25px #ffca1e;
     transform: translateX(calc(70px * 1));
 }
 .nav ul li:nth-child(3).active ~ .indicator{
-  background: #ffeb54;
-  box-shadow: 0 15px 25px #ffeb54;
+  background: #ffca1e;
+  box-shadow: 0 15px 25px #ffca1e;
   transform: translateX(calc(70px * 2));
 }
 .nav ul li:nth-child(4).active ~ .indicator{

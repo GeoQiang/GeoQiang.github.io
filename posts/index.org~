@@ -1,5 +1,7 @@
 #+TITLE: Blog Index
 
+- *[[file:图书馆管理笔记.org][图书馆管理笔记]]*
+  #+html: <p class='pubdate'>by Geo Zhao on 12月 27, 2022.</p>
 - *[[file:test.org][Test]]*
   #+html: <p class='pubdate'>by Geo Zhao on 8月 19, 2022.</p>
 - *[[file:template.org][Sample Post]]*

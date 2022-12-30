@@ -5,6 +5,12 @@
 * 图书馆核心价值：平等
 ** 平等
 平等是宪法所赋予公民的基本权利，指的是公民在法律面前一律平等。
+#+BEGIN_EXAMPLE
+1. 尊重和保障人权
+2. 平等参与的权利
+3. 平等发展的权利
+#+END_EXAMPLE
+
 1. 尊重和保障人权
 2. 平等参与的权利
 3. 平等发展的权利
@@ -12,11 +18,11 @@
 ** 对于图书馆而言，民众享有什么平等权利？
 1. 受教育的权利
 2. 基本文化权益
-
+#+BEGIN_EXAMPLE
+#+END_EXAMPLE
 ** 平等的核心价值
 1. 人格平等。是一切平等的前提。
-2. 机会平等。国际图书馆协会联合会和联合国教科文组织共同颁布了公共图书馆宣言
-（IFLA/UNESCO Public Library Mainfesto）
+2. 机会平等。国际图书馆协会联合会和联合国教科文组织共同颁布了公共图书馆宣言（IFLA/UNESCO Public Library Mainfesto）
 3. 免费服务。The public library shall in principle are free of charge.
 * TODO wait
 自由
